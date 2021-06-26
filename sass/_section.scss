@@ -1,0 +1,13 @@
+.high-section {
+    height: 100vh;
+    width: 100%;
+
+    & > .container {
+        height: 100%;
+        width: 100%;
+
+        & > .row {
+            flex-grow: 1;
+        }
+    }
+}
